@@ -1,0 +1,28 @@
+{
+  "name": "di-ts",
+  "version": "1.0.0",
+  "description": "Testing out DI in typescript",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "worker": "nodemon di-ts",
+    "test": "test",
+    "watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuelsoft/di-ts.git"
+  },
+  "keywords": [
+    "DI"
+  ],
+  "author": "nuelsoft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuelsoft/di-ts/issues"
+  },
+  "homepage": "https://github.com/nuelsoft/di-ts#readme",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
