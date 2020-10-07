@@ -3,7 +3,7 @@ import AuthVM from "./vm/auth.vm";
 import JokeVM from "./vm/joke.vm";
 
 initialize().then(
-    e => {
+    () => {
         const authVM = new AuthVM();
 
         const jokeVM = new JokeVM();

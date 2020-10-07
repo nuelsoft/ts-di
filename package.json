@@ -2,9 +2,9 @@
   "name": "di-ts",
   "version": "1.0.0",
   "description": "Testing out DI in typescript",
-  "main": "dist/app.js",
+  "main": "build/index.js",
   "scripts": {
-    "start": "tsc && node dist/app.js",
+    "start": "tsc && node build/index.js",
     "worker": "nodemon di-ts",
     "test": "test",
     "watch": "tsc --watch"

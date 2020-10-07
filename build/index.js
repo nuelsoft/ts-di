@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var secretary_1 = __importDefault(require("./secretary"));
 var auth_vm_1 = __importDefault(require("./vm/auth.vm"));
 var joke_vm_1 = __importDefault(require("./vm/joke.vm"));
-secretary_1.default().then(function (e) {
+secretary_1.default().then(function () {
     var _a;
     var authVM = new auth_vm_1.default();
     var jokeVM = new joke_vm_1.default();
