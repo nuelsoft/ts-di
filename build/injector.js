@@ -39,7 +39,7 @@ var Injector = /** @class */ (function () {
     function Injector() {
     }
     Injector.register = function (dependency, key) {
-        return __awaiter(this, void 0, void 0, function () {
+        return __awaiter(this, void 0, Promise, function () {
             return __generator(this, function (_a) {
                 this.dependencies.set(key, dependency);
                 return [2 /*return*/];
