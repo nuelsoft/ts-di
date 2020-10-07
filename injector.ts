@@ -1,7 +1,7 @@
 class Injector {
     private static dependencies: Map<string, any> = new Map<string, any>()
 
-    static async register(dependency: any, key: string): Promise<void> {
+    static register(dependency: any, key: string): void {
         this.dependencies.set(key, dependency)
     }
 

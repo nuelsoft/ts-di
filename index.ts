@@ -2,21 +2,17 @@ import initialize from "./secretary";
 import AuthVM from "./vm/auth.vm";
 import JokeVM from "./vm/joke.vm";
 
-initialize().then(
-    () => {
-        const authVM = new AuthVM();
+initialize()
+const authVM = new AuthVM();
 
-        const jokeVM = new JokeVM();
+const jokeVM = new JokeVM();
 
-        authVM.register("johnny", "123");
+authVM.register("johnny", "123");
 
-        console.log(authVM.auth.admin?.toString());
+console.log(authVM.auth.admin?.toString());
 
-        jokeVM.addJoke("The turtle doesn't swim to the east");
-        jokeVM.addJoke("The turtle doesn't swim to the north");
-        jokeVM.addJoke("The turtle doesn't swim to the west");
+jokeVM.addJoke("The turtle doesn't swim to the east");
+jokeVM.addJoke("The turtle doesn't swim to the north");
+jokeVM.addJoke("The turtle doesn't swim to the west");
 
-        console.log(jokeVM.fetchJokes());
-    }
-);
-
+console.log(jokeVM.fetchJokes());
