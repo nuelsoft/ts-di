@@ -8,3 +8,5 @@ class AuthVM extends BaseViewModel {
 }
 
 export = AuthVM;
+// eod
+
